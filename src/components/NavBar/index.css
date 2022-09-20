@@ -1,0 +1,51 @@
+/* Write your code here. */
+.navbar-container {
+  background-color: #ffffff33;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar-content-container {
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.game-logo {
+  width: 50px;
+}
+.game-name {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #ffffff;
+}
+.score-container {
+  display: flex;
+  align-items: center;
+}
+.hide-scores-container {
+  display: none;
+}
+.score {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .game-logo {
+    width: 30px;
+  }
+  .game-name {
+    font-size: 18px;
+  }
+  .score {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+}
